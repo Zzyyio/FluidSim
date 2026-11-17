@@ -1,6 +1,6 @@
 .editor-overlay{position:fixed;inset:0;z-index:40;background:#05091400;transition:background .32s ease-out;display:flex;align-items:flex-end}
-.editor-overlay.open{background:#05091470;backdrop-filter:blur(8px)}
-.obstacle-editor{width:100%;height:92dvh;border-radius:40px 40px 0 0;padding:28px 36px;background:linear-gradient(135deg,#ffffff12,#ffffff04),#111c2bd9;border:1px solid #ffffff30;box-shadow:0 -12px 60px #0005;backdrop-filter:blur(28px);transform:translateY(102%);transition:transform .36s cubic-bezier(.16,1,.3,1);display:flex;flex-direction:column}
+.editor-overlay.open{background:#05091420}
+.obstacle-editor{width:100%;height:92dvh;border-radius:40px 40px 0 0;padding:28px 36px;background:linear-gradient(135deg,rgba(255,255,255,.10),rgba(255,255,255,.025)),rgba(18,24,34,.42);border:1px solid #ffffff30;box-shadow:0 16px 50px #0003,inset 0 1px 0 #ffffff30,inset 0 -1px 0 #ffffff0a;backdrop-filter:blur(24px) saturate(160%);-webkit-backdrop-filter:blur(24px) saturate(160%);transform:translateY(102%);transition:transform .36s cubic-bezier(.16,1,.3,1);display:flex;flex-direction:column}
 .open .obstacle-editor{transform:translateY(0)}
 .obstacle-editor header{display:flex;justify-content:space-between;flex-shrink:0}.obstacle-editor header button{font-size:24px;margin-left:10px;width:44px;height:44px}.obstacle-editor [data-action=apply]{color:#8ee6cd}
 .editor-stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:10px;overflow:hidden}

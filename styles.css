@@ -419,5 +419,3 @@ button.info-button:hover,button.info-button:focus-visible { color:white; border-
   position:fixed; inset:0; width:100vw; height:100dvh;
   pointer-events:none; fill:rgb(166,181,196); shape-rendering:geometricPrecision;
 }
-
-.adaptive-control {display:flex;align-items:center;justify-content:space-between;margin-top:18px;gap:8px}.adaptive-control input{accent-color:#70dfd0;width:16px;height:16px}#adaptiveStatus{display:block;margin:8px 0 0;color:#9eafc1}
